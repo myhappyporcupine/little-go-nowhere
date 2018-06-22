@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+  color: #9c6;
+  background-color: #000;
+  font-size: 20px;
+  font-family: VT323, monospace;
+  line-height: 1.6em;
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 10px 0;
+}
+
+h1, h2 {
+  padding: 10px 0;
+}
+
+#chapter1 ul {
+  list-style: square;
+}
+
+#username-input {
+  color: #9c6;
+  background-color: #000;
+  font-size: 20px;
+  font-family: VT323, monospace;
+  border: #9c9 solid 2px;
+  padding: 5px 10px;
+}
+
+button {
+  color: #9c6;
+  background-color: #000;
+  font-size: 20px;
+  font-family: VT323, monospace;
+  border: #9c9 solid 2px;
+  padding: 5px 10px;
+}
+
+#joplin-welcome {
+  font-family: inherit;
+  display: none;
+}
